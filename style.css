@@ -129,6 +129,10 @@ body {
     text-transform: capitalize;
 }
 
+.container .control .one .lost{
+    color: red;
+}
+
 .container .result .good {
     color: #2196f3;
 }
@@ -136,3 +140,4 @@ body {
 .container .result .bad {
     color: #e91e63;
 }
+

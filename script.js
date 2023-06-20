@@ -50,7 +50,7 @@ let lvls = {
 }
 
 // set default
-let defaultLvl = 'Normal';
+let defaultLvl = 'Easy';
 let defaultSec = lvls[defaultLvl];
 
 // set the lvl and seconds and score
