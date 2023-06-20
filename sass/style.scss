@@ -1,0 +1,53 @@
+@use "./globalRules" as *;
+
+p {
+  width: 390px;
+  margin: 30px auto;
+  border-right: 2px solid #ddd;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-animation: typeWriting 4s;
+  animation: typeWriting 4s steps(46) 2s both, brink 1s infinite;
+}
+
+/* kndiro steps 3adad l7orof  bach ymchi 7arf b 7arf   */
+
+@-webkit-keyframes typeWriting {
+  from {
+    width: 0px;
+  }
+
+  to {
+    width: 390px;
+  }
+}
+
+@keyframes typeWriting {
+  from {
+    width: 0px;
+  }
+
+  to {
+    width: 390px;
+  }
+}
+
+@-webkit-keyframes brink {
+  from {
+    border-right-color: #ddd;
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes brink {
+  from {
+    border-right-color: #ddd;
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
